@@ -117,7 +117,7 @@ async def timefarm(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 # Main function to set up the bot
 def main():
-    TOKEN = "7858543961:AAE07rDw_0HZx2ZskZ6c0y1qWbqpF344y4c"  # Replace with your bot token
+    TOKEN = ""  # Replace with your bot token
     app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
